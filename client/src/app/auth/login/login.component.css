@@ -1,0 +1,143 @@
+.login-page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  /* width: fit-content; */
+  width: 74vw;
+  /* height: fit-content; */
+  height: 74vh;
+  padding: 2px;
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.login-left {
+  /* height: fit-content; */
+  height: 73vh;
+  /* width: fit-content; */
+  width: 73vw;
+
+  flex: 1;
+  background-color: white;
+  border: 5px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: contain;
+}
+.login-left .form-image {
+  /* height: 600px; */
+  height: 73vh;
+  /* width: 700px; */
+  width: 46vw;
+  border-radius: 5px;
+}
+
+.background-image {
+  width: 50%;
+  height: 100%;
+  z-index: -1;
+}
+
+.login-right {
+  flex: 1;
+  padding: 10px;
+  height: fit-content;
+  /* height: 30vh; */
+  width: 400px;
+  /* width: 40vw; */
+
+}
+
+.login-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-logo img {
+  width: 120px;
+  height: fit-content;
+}
+
+.login-logo h2 {
+  font-size: 16px;
+  text-align: center;
+  color: #4d4d4d;
+  margin-top: 8px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333333;
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #666666;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  outline: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333333;
+}
+
+.form-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 14px;
+  color: #888888;
+  margin-bottom: 20px;
+}
+
+.form-options a {
+  color:  #888888;
+  font-size: 14px;
+  text-decoration: none;
+  display: block;
+  
+}
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.login-btn {
+  width: 100px;
+  padding: 12px;
+  margin-right: 20px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #ff5722;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+  background-color: #e64a19;
+}
